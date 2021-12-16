@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "daa5b87b-9171-490a-ba92-68bf46fb0597",
+		"name": "FalabellaTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Delete method",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/product/FAL-1002001",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product",
+						"FAL-1002001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/product/FAL-1000002",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product",
+						"FAL-1000002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/product/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sku\": \"FAL-1000001\",\n    \"name\": \"11q\",\n    \"brand\": \"fffffff\",\n    \"size\": \"dsadsa\",\n    \"price\": 1,\n    \"principalImg\": \"http://stackoverflow.com/questions/52421620/how-can-i-open-my-react-native-app-from-the-browser\",\n    \"otherImages\": {}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/product",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sku\": \"FAL-1002001\",\n    \"name\": \"11q\",\n    \"brand\": \"fffffff\",\n    \"size\": \"dsadsa\",\n    \"price\": 1,\n    \"principalImg\": \"http://stackoverflow.com/questions/52421620/how-can-i-open-my-react-native-app-from-the-browser\",\n    \"otherImages\": {}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/product",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
